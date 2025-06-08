@@ -14,6 +14,8 @@ const configStoreCreator: StateCreator<ConfigState> = (set) => ({
         height: 2.5,
         material: materials[0].id,
         roofType: roofTypes[0].id,
+        style: 'freestanding',
+        color: materials[0].colors[0].hex,
         accessories: [],
       },
       setConfig: (newConfig) =>
